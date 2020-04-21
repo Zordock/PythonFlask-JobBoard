@@ -2,7 +2,7 @@ from flask import Flask, g
 from flask import render_template
 import sqlite3
 
-PATH = 'db/jobs.sqlite3'
+PATH = 'db/jobs.sqlite'
 
 app = Flask(__name__)
 

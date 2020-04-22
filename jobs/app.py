@@ -49,5 +49,5 @@ def employer(employer_id):
     return render_template('employer.html', employer=employer, jobs=jobs, reviews=reviews)
 
 @app.route('/employer/<employer_id>/review')
-def review(employer_id)
+def review(employer_id):
     return render_template()
